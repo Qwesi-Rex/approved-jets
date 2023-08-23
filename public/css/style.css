@@ -1237,7 +1237,7 @@ a {
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio{
-  display: none;
+ 
 }
 
 .portfolio .member {
@@ -1334,11 +1334,6 @@ a {
 
 
 
-
-
-
-
-
     /*--------------------------------------------------------------
 # Our Team 
 --------------------------------------------------------------*/
@@ -1352,10 +1347,17 @@ a {
 
 
 .team-section .team-item .team-img {
-  width: 180px;
+  width: 200px;
   border-radius: 50%;
   border: 6px solid rgb(153, 23, 23);
   margin: 0 auto;
+}
+
+.team-section .team-item h2 {
+  font-size: 30px;
+  margin: 10px 0 5px 0;
+  color: rgb(255, 255, 255);
+  font-family: cinzel, sans-serif;
 }
 
 .team-section .team-item h3 {
@@ -1374,6 +1376,14 @@ a {
 }
 
 .team-section .team-item p {
+  font-size: 14px;
+  color: #fdfdfd;
+  margin: 0 0 15px 0;
+  font-weight: 200;
+  text-align: left;
+}
+
+.team-section .team-item-indi {
   font-size: 14px;
   color: #fdfdfd;
   margin: 0 0 15px 0;
@@ -1767,7 +1777,7 @@ a {
     table{
       border-collapse: collapse;
       width: 100%;
-      color: #00;
+      color: #000;
     }
 
     table a{
